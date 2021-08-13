@@ -15,11 +15,12 @@ h1 {
     text-align: center;
 }
 
-h3 {
-    margin: 10px 0;
+h3,
+h2 {
+    margin: 0px 0px 10px 0px;
 }
 
-#nav {   
+nav {
     min-height: 50px;
     background-color: rgb(207, 43, 43);
     padding: 0 20%;
@@ -31,7 +32,7 @@ h3 {
     align-items: center;
 }
 
-#nav > a {
+nav > a {
     color: white;
 }
 
@@ -44,7 +45,8 @@ h3 {
     text-align: center;
 }
 
-#origem, #principal {
+#origem,
+#principal {
     display: flex;
     flex-flow: row nowrap;
 }
@@ -64,7 +66,7 @@ h3 {
     width: auto;
     max-height: 250px;
     float: left;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .origem-do-bolo {
@@ -81,25 +83,41 @@ h3 {
     background-position: right center;
     background-repeat: no-repeat;
     opacity: 0.5;
-    background-color: rgb(128, 0, 0);
-    color: white;
+    background-color: rgb(104, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 20px;
-    margin-top: 10px;
+    margin: 10px 0px 10px 0px;
     text-align: center;
+    font-size: 20px;
 }
 
-#ingredientes, .ingredientes {
-    margin: 20px 10px;
+.ingredientes > li {
+    list-style: none;
 }
 
 .outros-bolos {
-    background-color: white;
-    margin: 10px;
-    padding: 20px;
+    /* background-color: white; */
+    margin: 0 10px 10px;
+    padding: 0px 20px 20px;
+    text-align: center;
 }
 
-.contato {
-    padding-bottom: 20px;
+.outros-bolos > ul {
+    list-style: none;
+    text-align: left;
+}
+
+#contato > form {
+    padding-left: 5px;
+}
+
+#contato > form > input,
+button {
+    margin: 3px 3px 3px 0px;
+}
+
+#contato > h2 {
+    margin: 0px 0px 7px;
 }
 
 .saiba-mais {
@@ -114,6 +132,7 @@ h3 {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+    margin: 10px 0px 0px;
 }
 
 .social-icon {
