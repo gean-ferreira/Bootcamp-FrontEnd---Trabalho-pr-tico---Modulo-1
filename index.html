@@ -1,136 +1,147 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <link rel="stylesheet" href="style.css" />
-    <header>
-        <nav>
-            <a href="#titulo-principal">Início</a>
-            <a href="#origem">A origem do bolo</a>
-            <a href="#principal">Receita do bolo</a>
-            <a href="#footer">Comentários</a>
-        </nav>
+  <link rel="stylesheet" href="style.css" />
+  <body class="body">
+    <header class="body__header">
+      <nav class="header__navegacao">
+        <a href="#titulo-principal">Início</a>
+        <a href="#origem">A origem do bolo</a>
+        <a href="#principal">Receita do bolo</a>
+        <a href="#footer">Comentários</a>
+      </nav>
     </header>
-    <body>
-        <main id="main">
-            <header id="titulo-principal">
-                <h1>Conheça o bolo</h1>
-            </header>
-            <section id="origem">
-                <img
-                    alt="foto de um bolo qualquer"
-                    src="src/img/bolo.png"
-                    id="foto-de-bolo"
-                />
-                <div class="origem-do-bolo">
-                    <h2 id="origem-titulo">A origem do bolo</h2>
-                    <p id="origem-descricao">
-                        Acredita-se que a origem dos bolos tenha sido no Egito
-                        Antigo na forma de pães adoçados com xarope de frutas,
-                        tâmaras e passas. Os gregos e romanos o aperfeiçoaram
-                        onde eram oferecidos um preparado redondo de mel e pão,
-                        coberto de velas acesas, que simbolizava a lua cheia,
-                        símbolo de Ártemis, deusa da fertilidade, caça e
-                        maternidade. Porém a real diferença entre pães e bolos
-                        só veio a ser caracterizada durante o Renascimento.
-                    </p>
-                </div>
-            </section>
-            <blockquote
-                cite="https://citacoes.in/citacoes/1973351-elon-musk-criar-uma-empresa-e-como-fazer-um-bolo-voce-preci/"
-                id="quote"
-            >
-                <cite
-                    >"Criar uma empresa é como fazer um bolo. Você precisa ter
-                    todos os ingredientes na proporção certa."</cite
-                >
-                <p>- Elon Musk</p>
-            </blockquote>
-            <section id="principal">
-                <section id="bolo-chocolate">
-                    <h2>Receita de Bolo de Chocolate</h2>
-                    <div class="receita-bolo-chocolate">
-                        <img
-                            src="/src/img/bolo-chocolate.png"
-                            id="foto-bolo-chocolate"
-                            alt="Foto bolo de chocolate"
-                        />
-                        <ul class="ingredientes">
-                            <h3>Ingredientes:</h3>
-                            <li>4 ovos</li>
-                            <li>4 colheres (sopa) de chocolate em pó</li>
-                            <li>2 colheres (sopa) de manteiga</li>
-                            <li>3 xícaras (chá) de farinha de trigo</li>
-                            <li>2 xícaras (chá) de açúcar</li>
-                            <li>2 colheres (sopa) de fermento</li>
-                            <li>1 xícara (chá) de leite</li>
-                        </ul>
-                        <ol class="modoDePreparo">
-                            <h3>Modo de preparo:</h3>
-                            <li>
-                                Em um liquidificador adicione os ovos, o
-                                chocolate em pó, a manteiga, a farinha de trigo,
-                                o açúcar e o leite, depois bata por 5 minutos.
-                            </li>
-                            <li>
-                                Adicione o fermento e misture com uma espátula
-                                delicadamente.
-                            </li>
-                            <li>
-                                Em uma forma untada, despeje a massa e asse em
-                                forno médio (180 ºC) preaquecido por cerca de 40
-                                minutos.
-                            </li>
-                        </ol>
-                    </div>
-                </section>
-                <aside class="outros-bolos">
-                    <h2>Bolos relacionados</h2>
-                    <ul>
-                        <li>Bolo de Coco</li>
-                        <li>Bolo de Morango</li>
-                        <li>Bolo de Milho</li>
-                        <li>Bolo de Prestigio</li>
-                        <li>Bolo de Floresta Negra</li>
-                        <li>Bolo de Ninho com Nutella</li>
-                        <li>Bolo de Baunilha</li>
-                    </ul>
-                </aside>
-            </section>
-            <section id="contato">
-                <h2>Entre em Contato!</h2>
-                <form>
-                    <label for="name">Nome: </label
-                    ><input type="text" id="name" /><br />
-                    <label for="laname">Sobrenome: </label
-                    ><input type="text" id="lname" /><br />
-                    <label for="tel">Telefone: </label
-                    ><input type="text" id="tel" /><br />
-                    <label for="email">Email: </label
-                    ><input type="text" id="email" /><br />
-                    <label for="mensage">Mensagem: </label
-                    ><input type="text" id="mensage" /><br />
-                    <button alt="Enviar mensagem">Enviar</button>
-                    <button alt="Cancelar envio de mensagem">Não enviar</button>
-                </form>
-            </section>
-        </main>
+    <body class="body__main">
+      <main class="main">
+        <header class="main__titulo-principal">
+          <h1>Conheça o bolo</h1>
+        </header>
+        <section class="origem">
+          <img
+            alt="foto de um bolo qualquer"
+            src="src/img/bolo.png"
+            class="origem__foto-de-bolo"
+          />
+          <div class="origem__origem-do-bolo">
+            <h2 id="origem__titulo">A origem do bolo</h2>
+            <p id="origem__descricao">
+              Acredita-se que a origem dos bolos tenha sido no Egito Antigo na
+              forma de pães adoçados com xarope de frutas, tâmaras e passas. Os
+              gregos e romanos o aperfeiçoaram onde eram oferecidos um preparado
+              redondo de mel e pão, coberto de velas acesas, que simbolizava a
+              lua cheia, símbolo de Ártemis, deusa da fertilidade, caça e
+              maternidade. Porém a real diferença entre pães e bolos só veio a
+              ser caracterizada durante o Renascimento.
+            </p>
+          </div>
+        </section>
+        <blockquote
+          cite="https://citacoes.in/citacoes/1973351-elon-musk-criar-uma-empresa-e-como-fazer-um-bolo-voce-preci/"
+          class="quote"
+        >
+          <cite
+            >"Criar uma empresa é como fazer um bolo. Você precisa ter todos os
+            ingredientes na proporção certa."</cite
+          >
+          <p>- Elon Musk</p>
+        </blockquote>
+        <section class="principal">
+          <section class="bolo-chocolate">
+            <h2>Receita de Bolo de Chocolate</h2>
+            <div class="bolo-chocolate__receita-bolo-chocolate">
+              <img
+                src="/src/img/bolo-chocolate.png"
+                class="bolo-chocolate__foto-bolo-chocolate"
+                alt="foto-bolo-de-chocolate"
+              />
+              <ul class="bolo-chocolate__ingredientes">
+                <h3>Ingredientes:</h3>
+                <li>4 ovos</li>
+                <li>4 colheres (sopa) de chocolate em pó</li>
+                <li>2 colheres (sopa) de manteiga</li>
+                <li>3 xícaras (chá) de farinha de trigo</li>
+                <li>2 xícaras (chá) de açúcar</li>
+                <li>2 colheres (sopa) de fermento</li>
+                <li>1 xícara (chá) de leite</li>
+              </ul>
+              <ol class="bolo-chocolate__modoDePreparo">
+                <h3>Modo de preparo:</h3>
+                <li>
+                  Em um liquidificador adicione os ovos, o chocolate em pó, a
+                  manteiga, a farinha de trigo, o açúcar e o leite, depois bata
+                  por 5 minutos.
+                </li>
+                <li>
+                  Adicione o fermento e misture com uma espátula delicadamente.
+                </li>
+                <li>
+                  Em uma forma untada, despeje a massa e asse em forno médio
+                  (180 ºC) preaquecido por cerca de 40 minutos.
+                </li>
+              </ol>
+            </div>
+          </section>
+          <aside class="outros-bolos">
+            <h2>Bolos relacionados</h2>
+            <ul>
+              <li>Bolo de Coco</li>
+              <li>Bolo de Morango</li>
+              <li>Bolo de Milho</li>
+              <li>Bolo de Prestigio</li>
+              <li>Bolo de Floresta Negra</li>
+              <li>Bolo de Ninho com Nutella</li>
+              <li>Bolo de Baunilha</li>
+            </ul>
+          </aside>
+        </section>
+        <section class="contato">
+          <h2>Entre em Contato!</h2>
+          <form class="formulario">
+            <label for="input-fname">Nome: </label
+            ><input type="text" id="input-fname" /><br />
+            <label for="input-lname">Sobrenome: </label
+            ><input type="text" id="input-lname" /><br />
+            <label for="input-tel">Telefone: </label
+            ><input type="text" id="input-tel" /><br />
+            <label for="input-email">Email: </label
+            ><input type="text" id="input-email" /><br />
+            <label for="input-mensage">Mensagem: </label
+            ><input type="text" id="input-mensage" /><br />
+            <button alt="Enviar mensagem">Enviar</button>
+            <button alt="Cancelar envio de mensagem">Não enviar</button>
+          </form>
+        </section>
+      </main>
     </body>
-    <footer id="footer">
-        <div class="social-media">
-            <a href="https://www.instagram.com/"
-                ><img src="src/img/instagram.png" class="social-icon"
-            /></a>
-            <a href="https://pt-br.facebook.com/"
-                ><img src="src/img/facebook.png" class="social-icon"
-            /></a>
-            <a href="https://twitter.com/"
-                ><img src="src/img/twitter.png" class="social-icon"
-            /></a>
-            <a href="https://br.wordpress.org/"
-                ><img src="src/img/wordpress.png" class="social-icon"
-            /></a>
-        </div>
-        <div class="copyrights">
-            <p>Bolo 2021 &copy; Todos os direitos reservados</p>
-        </div>
+    <footer class="body__footer">
+      <div class="social-media">
+        <a href="https://www.instagram.com/"
+          ><img
+            src="src/img/instagram.png"
+            alt="Instram-icon"
+            class="social-icon"
+        /></a>
+        <a href="https://pt-br.facebook.com/"
+          ><img
+            src="src/img/facebook.png"
+            alt="facebook-icon"
+            class="social-icon"
+        /></a>
+        <a href="https://twitter.com/"
+          ><img
+            src="src/img/twitter.png"
+            alt="twitter-icon"
+            class="social-icon"
+        /></a>
+        <a href="https://br.wordpress.org/"
+          ><img
+            src="src/img/wordpress.png"
+            alt="wordpress-icon"
+            class="social-icon"
+        /></a>
+      </div>
+      <div class="copyrights">
+        <p>Bolo 2021 &copy; Todos os direitos reservados</p>
+      </div>
     </footer>
+  </body>
 </html>
