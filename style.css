@@ -38,8 +38,8 @@ h2 {
   margin: 0 auto;
 }
 
-.origem,
-.principal {
+#origem,
+#principal {
   display: flex;
   flex-flow: row nowrap;
 }
@@ -68,7 +68,7 @@ h2 {
   font-size: 20px;
 }
 
-.principal {
+#principal {
   justify-content: space-between;
   margin-bottom: 10px;
 }
@@ -95,15 +95,15 @@ h2 {
   text-align: left;
 }
 
-.contato > h2 {
+#contato > h2 {
   margin: 0px 0px 7px;
 }
 
-.contato > .formulario {
+#contato > .formulario {
   padding-left: 5px;
 }
 
-.contato > .formulario > input,
+#contato > .formulario > input,
 button {
   margin: 3px 3px 3px 0px;
 }
@@ -127,4 +127,79 @@ button {
 
 .social-icon:hover {
   cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .header__navegacao {
+    padding: 0px;
+  }
+
+  #origem {
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0px 10px 0px;
+  }
+
+  .origem__foto-de-bolo,
+  .bolo-chocolate__foto-bolo-chocolate {
+    max-width: 100%;
+    max-height: 100%;
+    float: none;
+    margin: 0px;
+  }
+
+  #origem > .origem__origem-do-bolo {
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .origem__origem-do-bolo,
+  cite,
+  li {
+    text-align: justify;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  #principal,
+  #contato {
+    padding: 0px 10px 0px;
+  }
+
+  #principal,
+  .body__footer {
+    flex-flow: column nowrap;
+    text-align: center;
+  }
+
+  .bolo-chocolate__modoDePreparo,
+  .bolo-chocolate__ingredientes {
+    padding: 0px 10px 0px 40px;
+  }
+
+  h3 {
+    text-align: left;
+  }
+
+  .outros-bolos {
+    margin: 0px;
+    padding: 20px 20px 0px;
+    background-color: white;
+  }
+
+  #contato {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .formulario > input {
+    width: 98%;
+  }
+
+  button {
+    margin-top: 6px;
+    width: 100%;
+  }
 }
