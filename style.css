@@ -56,7 +56,7 @@ h2 {
 }
 
 .quote {
-  background-image: url(/src/img/sweet-cake.jpg);
+  background-image: url(src/img/sweet-cake.jpg);
   background-position: right center;
   background-repeat: no-repeat;
   opacity: 0.5;
@@ -78,6 +78,10 @@ h2 {
   max-height: 250px;
   float: left;
   margin-right: 30px;
+
+  width: 100%;
+  max-width: 300px;
+  max-height: 230px;
 }
 
 .bolo-chocolate__ingredientes {
